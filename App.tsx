@@ -125,7 +125,7 @@ export default function App() {
       try {
         await notifee.createTriggerNotification(
           {
-            id: task.id, // important pour pouvoir l’annuler éventuellement
+            id: task.id, // important pour pouvoir l’annuler éventuellement!!!!!!
             title: 'Tâche à venir',
             body: `${title} dans ${reminder} min`,
             android: {
